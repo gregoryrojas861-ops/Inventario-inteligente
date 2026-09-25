@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+inventory.db
+*.sqlite
+*.log
+.streamlit/secrets.toml
