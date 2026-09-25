@@ -1,6 +1,6 @@
 import streamlit as st
 from config import settings
-from database.database import init_db
+from database/database import init_db
 from services.auth_service import authenticate_user, create_default_admin
 
 st.set_page_config(page_title="Inventario Industrial", page_icon="📦", layout="wide")
